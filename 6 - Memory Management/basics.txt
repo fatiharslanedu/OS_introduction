@@ -1,0 +1,14 @@
+Definition of Segments
+
+1:Text Segment (code segment) is include porition of object file or spesific area of 
+    program's address spaces. Also, contains executable constructions.
+
+2:Initialized Data Segment: Include global and static variables.
+    It has read and write area. For example char str[] = "Hello, World!";
+
+3:Uninitialized Data Segment also call "BSS" which block started by symbol. 
+    It include all global and static variables. For example int i;
+
+4:Stack area is adjoined the heap area. Faster area in memory. It includes stack, LIFO
+
+5:Heap use for dynamic memory allocations. Begin after BSS area and grows.
